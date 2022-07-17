@@ -1,6 +1,12 @@
-import './style.css'
+// import "./style.css";
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+//Create variables for the different parts of the page
+
+let header = document.querySelector("header");
+let filterAside = document.querySelector("aside");
+let prodSec = document.querySelector("section");
+let footer = document.querySelector("footer");
+
+//Create the function to create the header
+
+function createHeader() {}
